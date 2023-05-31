@@ -1,0 +1,171 @@
+.div__Cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    background: rgba(11,6,105,1);
+}
+
+.Titulo{
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.link__sobre{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.img__foto{
+    width:250px;
+    height:250px;
+    border-radius:160px;
+    border:15px solid white;
+}
+
+
+
+.titulo__nombre{
+    font-size: 4.5rem;
+    font-weight: 540;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.div__profesion{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__profesion{
+    font-size: 3.5rem;
+    font-weight: 540;
+    margin-top: 50px;
+    padding: 0 60px;
+    background: rgba(18,18,88,1);
+    color: white;
+    border-radius: 10px;
+}
+
+.lista__personales{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.ul__datos{
+    display: flex;  
+    border-bottom: 3px solid;
+    padding-bottom: 30px;
+    margin: 50px 0 50px; 
+}
+
+.lista__datos{
+    padding: 0 50px;
+    font-size: 1.7rem;
+    margin-top: 10px; 
+}
+
+.lista__numero{
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.img__datos{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+.div__perfil{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.perfil{
+    font-size: 3rem;
+    font-weight: 540;
+    margin-bottom: 50px;
+}
+
+.texto__perfil{
+    font-size: 1.5rem;
+    text-align: justify; 
+    max-width: 1000px;
+    border-bottom: 3px solid ;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.seccion{
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 320px);
+    gap: 10px;
+    height: 300px;
+    justify-content:center; 
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+.div__mov{
+    margin-right: 150px;
+}
+
+.perfils{
+    font-size: 3rem;
+    font-weight: 540;
+    margin-bottom: 25px;
+}
+
+.texto__datos{  
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: rgba(18,18,88,1);
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 390px;
+    background: rgba(11,6,105,1);
+}
+
+.div__Social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img__Red__Social{
+    width: 80px;
+    height: 80px;
+    margin: 20px 0;
+}
