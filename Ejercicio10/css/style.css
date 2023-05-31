@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.div_descuento{
+    background-color: #1CD1B0;
+    height: 38px;
+}
+
+.head_texto{
+    font-size: 15px;
+    font-style: normal;
+    line-height: 18px;
+    padding: 10px 27px;
+}
+
+#div_titulo{
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 101px;
+}
+
+#titulo_header{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    padding: 28px 0px 26px 28px;
+}
+
+#section_heroes{
+    margin-top: 150px;
+}
+
+.div_perfil{
+    width: 300px;
+    height: 550px;
+    margin-left: 32px;
+    background-color: #F3F3F3;
+    display: inline-block;
+}
+
+.img_perfil{
+    border-radius: 100px;
+    width: 120px;
+    height: 118px;
+    position: relative;
+    left: 95px;
+    top: -65px;
+}
+
+
+.texto_nombre{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.texto_descripcion{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    width: 250px;
+    text-align: justify;
+}
+
+.boton{
+    width: 128.78px;
+    height: 48.52px;
+    background: #00669F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F3F3F3;
+    position: relative;
+    left: 80px;
+}
+
+#footer{
+    height: 51px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 100px;
+}
+
+#texto_footer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding: 16px 16px;
+    color: #FFF9F9;
+}
